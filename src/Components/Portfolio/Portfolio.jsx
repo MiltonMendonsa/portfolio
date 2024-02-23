@@ -10,6 +10,7 @@ import P4 from '../../img/project4.png'
 import P5 from '../../img/project5.png'
 import P6 from '../../img/project6.png'
 import P7 from '../../img/project7.png'
+import P9 from '../../img/project9.png'
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -30,12 +31,16 @@ const Portfolio = () => {
         className='portfolio-slider'
         >
             <SwiperSlide>
-                <img src={P1} alt="" />
-                <h4>Criftoz NFT Store</h4>
+                <img src={P9} alt="" />
+                <h4>Vehicle Rental System</h4>
             </SwiperSlide>
             <SwiperSlide>
                 <img src={P5} alt="" />
                 <h4>Dishan Boating and Homestay</h4>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={P1} alt="" />
+                <h4>Criftoz NFT Store</h4>
             </SwiperSlide>
             <SwiperSlide>
                 <img src={P2} alt="" />
