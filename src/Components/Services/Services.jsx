@@ -7,7 +7,7 @@ import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
 import { themeContext } from "../../Context"
 import { motion } from "framer-motion"
-import Resume from './Milton_cv.pdf'
+import Resume from './milton_resume.pdf'
 
 const Services = () => {
     // context
@@ -56,7 +56,7 @@ const Services = () => {
               <Card
                 emoji = {Glasses}
                 heading = {'Developer'}
-                detail = {'Java, JDBC, Servlet, Hibernate, Javascript, ReactJs and NextJs, SQL'}
+                detail = {'Java, J2EE, Hibernate, Spring Boot, Javascript, ReactJs and NextJs, SQL'}
               />
             </motion.div>
 
